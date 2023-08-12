@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <article class="timer">
+        <form action="" class="timer-form">
+            <div class="container">
+                <input maxlength="2" id="hour" type="text" class="timer-input">
+                <label for="hour" class="timer-label">HOURS</label>
+            </div>
+            <div class="container">
+                <input maxlength="2" id="min" type="text" class="timer-input">
+                <label for="min" class="timer-label">MINUTES</label>
+            </div>
+            <div class="container">
+                <input maxlength="2" id="sec" type="text" class="timer-input">
+                <label for="sec" class="timer-label">SECONDS</label>   
+            </div>
+        </form>
+        <div class="buttons-container">
+            <button type="button" class="start-button">START</button>
+            <button type="button" class="pause-button">PAUSE</button>
+            <button type="button" class="stop-button">STOP</button>
+        </div>
+    </article>
+
+
+    <script type="module" src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+	"name": "additional_task",
+	"version": "1.0.0",
+	"description": "",
+	"browserslist": "> 0.5%, last 2 versions, not dead",
+	"homepage": "https://Matvii-Alkhimov.github.io/additional_task",
+	"source": "src/index.html",
+	"scripts": {
+		"start": "parcel",
+		"build": "parcel build --public-url /additional_task/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Matvii-Alkhimov/additional_task.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Matvii-Alkhimov/additional_task/issues"
+	},
+	"devDependencies": {
+		"parcel": "^2.9.3"
+	},
+	"dependencies": {
+		"validator": "^13.9.0"
+	}
+}
