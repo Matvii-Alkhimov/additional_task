@@ -19,10 +19,14 @@
 	"bugs": {
 		"url": "https://github.com/Matvii-Alkhimov/additional_task/issues"
 	},
-	"devDependencies": {
-		"parcel": "^2.9.3"
-	},
 	"dependencies": {
-		"validator": "^13.9.0"
-	}
+		"modern-normalize": "^1.1.0",
+		"parcel-transformer-hbs": "^1.0.4"
+	  },
+	  "devDependencies": {
+		"@parcel/transformer-sass": "^2.6.0",
+		"parcel": "^2.6.0",
+		"parcel-reporter-clean-dist": "^1.0.4",
+		"posthtml-include": "^1.7.4"
+	  }
 }

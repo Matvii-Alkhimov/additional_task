@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <article class="timer">
+    <!-- <article class="timer">
         <form action="" class="timer-form">
             <div class="container">
                 <input maxlength="2" id="hour" type="text" class="timer-input">
@@ -27,9 +27,25 @@
             <button type="button" class="pause-button">PAUSE</button>
             <button type="button" class="stop-button">STOP</button>
         </div>
-    </article>
+    </article> -->
 
 
+    <button class="js-start-race">Наступний заїзд</button>
+    <hr />
+    <p class="js-winner"></p>
+    <p class="js-progress"></p>
+    <hr />
+
+    <table class="js-results-table">
+      <thead>
+        <tr>
+          <th>Заїзд</th>
+          <th>Переможець</th>
+          <th>час</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
     <script type="module" src="./js/script.js"></script>
 </body>
 </html>
